@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Fast Food Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="responsive.css">
+
+</head>
+
+<body>
+    <img class="img" src="./hero-bg.jpg" alt="Not Found">
+    <header>
+        <nav class="nav">
+            <div class="logo-bar">
+                <div class="left">Feane</div>
+                <div class="bars" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <div class="second">
+
+                <div class="mid">
+                    <li class="items"> <a href="/home.html">HOME</a></li>
+                    <li class="items"> <a href="/index.menu.html ">MENU</a></li>
+                    <li class="items"> <a href="/about.html">ABOUT</a></li>
+                    <li class="items"> <a href="/booking.html">BOOK TABLE</a></li>
+                </div>
+
+                <div class="right">
+                    <div class="logo">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <input class="search" id="s" type="text" placeholder="Search Here">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="text">
+        <div class="text-data">
+            <h1 class="heading"> Fast Food Resturant </h1>
+            <p class="paragraph"> Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia
+                laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni
+                quos nihil ducimus libero ipsam.</p>
+            <button class="search"> Order Now </button>
+        </div>
+    </div>
+
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="dealbox">
+        <div class="deal">
+            <img class="deal-pic" src="./o1.jpg" alt="Not Found">
+            <div class="deal-text">
+                <h2 class="discount">Tasty Thursdays</h2>
+                <div class="Off">
+                    <div id="dis" class="discount">20%</div>
+                    <div class="discount">Off</div>
+                </div>
+                <button class="search"> Order Now
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+        <div class="deal">
+            <img class="deal-pic" src="./o2.jpg" alt="Not Found">
+            <div class="deal-text">
+                <h2 class="discount">Pizza Days</h2>
+                <div class="Off">
+                    <div id="dis" class="discount">15%</div>
+                    <div class="discount">Off</div>
+                </div>
+                <button class="search"> Order Now
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 class="menu">Our Menu</h2>
+
+    <div class="menu-detail">
+        <span>All</span>
+        <span>Burger</span>
+        <span>Pizza</span>
+        <span>Pasta</span>
+        <span>Fries</span>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f1.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food"> Delicious Pizza </h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f2.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food"> Delicious Burger</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f3.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food"> Delicious Pizza </h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f4.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food"> Delicious Pasta </h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f5.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food">Delicious Fries</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f6.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food">Delicious Pizza</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f7.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food">Delicious Burger</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f8.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food">Tasty Burger</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-bg">
+                <img class="card-img" src="./f9.png" alt="Not Found">
+            </div>
+            <div class="food-bg">
+                <h3 class="food">Delicious Pizza</h3>
+                <p class="detail">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                    voluptatem repellendus sed eaque</p>
+                <div class="price">
+                    <h4> $20 </h4>
+                    <div class="shop">
+                        <i class="fa fa-shopping-cart" style="font-size:18px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="view-btn">
+        <button class="search"> View More </button>
+    </div>
+
+    <div class="about">
+        <img class="about-img" src="./about-img.png" alt="Not Found">
+        <div class="about-text">
+            <h2 class="name">We are Feane</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam porro, adipisci tenetur aliquid
+                inventore est odio expedita perspiciatis reiciendis doloribus vero officia nihil sunt ratione quaerat
+                quos quas natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel modi facilis molestias
+                molestiae atque, sed doloremque</p>
+            <button class="search"> Read More </button>
+        </div>
+    </div>
+
+    <h1 class="name" id="booking"> Book a Table </h1>
+
+    <div class="form">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Phone Number">
+        <input type="text" placeholder="Your Email">
+        <input type="number" name="person" id="person" placeholder="How many persons?">
+        <input type="date" name="date" id="date" >
+        <button class="search" id="book"> Book Now </button>
+    </div>
+
+    <h2 class="menu">What Says Our Customers</h2>
+
+    <div class="reviews">
+        <div class="rev">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, unde! Ab blanditiis deserunt corrupti
+                nihil, numquam mollitia veniam, amet</p>
+            <h3>Michel Hamel</h3>
+            <div>manga aliqua</div>
+            <img class="client" src="./client1.jpg" alt="Not Found">
+        </div>
+
+        <div class="rev" id="review2">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, unde! Ab blanditiis deserunt corrupti
+                nihil, numquam mollitia veniam, amet</p>
+            <h3>Michel Hamel</h3>
+            <div>manga aliqua</div>
+            <img class="client" src="./client2.jpg" alt="Not Found">
+        </div>
+
+    </div>
+
+    <div class="scroll-btn">
+        <div class="scroll">
+            <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="scroll">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="foot">
+                <h2 class="bold"> Contact Us</h2>
+                <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+                    <div> Location</div>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-phone"></i>
+                    <div> Call +92 3351472482</div>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                    <div>demo@gmail.com</div>
+                </div>
+            </div>
+
+            <div class="foot" id="center">
+                <h2 id="Feane" class="bold"> Feane </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error numquam nemo eveniet ab
+                    obcaecati optio doloribus autem
+                </p>
+                <ul class="icon" id="social-icon">
+                    <li class="social" id="fb">
+                        <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="fa fa-pinterest" aria-hidden="true"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="foot">
+                <h2 class="bold">Opening hours</h2>
+                <div class="time">Everyday</div>
+                <div class="time">10:00 AM -10:00 PM</div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="copy">
+                &copy; 2024 All Rights Reserved By Free Html Templates
+            </div>
+            <div class="copy">
+                &copy; Distributed By ThemeWagon
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
