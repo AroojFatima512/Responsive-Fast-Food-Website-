@@ -1,0 +1,419 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Arial", "Open Sans", sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.img {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.nav {
+    position: relative;
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+}
+  .second{
+    display: flex;
+    justify-content: space-between;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+}
+
+.items {
+    list-style: none;
+    padding: 20px;
+}
+
+.items a{
+text-decoration: none;
+}
+ 
+.items a:hover, .items a:active {
+    color: #ffbe33;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    padding: 0px 10px;
+}
+
+.searchpic {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+.search {
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #fcb723;
+    border: none;
+    width: 180px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#s {
+    margin-left: 16px;
+    margin-top: 0px;
+    width: 150px;
+}
+
+.search:hover {
+    background-color: #db9807;
+}
+
+.text{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.text-data {
+    position: relative;
+    left: 10%;
+    width: 550px;
+}
+
+.heading {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+}
+
+.paragraph{
+    font-size: 15px;
+}
+.circles{
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+}
+.circles li{
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.dealbox {
+    width: 100vw;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.deal,
+.rev {
+    background-color: #252931;
+    width: 40vw;
+    height: 18vw;
+    margin: 15px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.deal {
+    display: flex;
+    align-items: center;
+}
+
+.deal-pic:hover,
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+.deal-pic {
+    height: 30vh;
+    width: 14vw;
+    margin-left: 20px;
+    border-radius: 200px;
+    border: 4px solid #fcb723;
+}
+
+.deal-text {
+    margin-left: 20px;
+}
+
+#dis {
+    font-size: 40px;
+}
+
+.discount {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 60px;
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.menu-detail{
+    width: 100vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu-detail span{
+    color: #000;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.menu-detail span:hover{
+    background-color: #161a20;
+    color: white;
+    border-radius: 20px;
+}
+.card {
+    width: 350px;
+    height: 420px;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: #1e232b;
+}
+
+.card-img {
+    width: 160px;
+    height: 140px;
+}
+
+.card-bg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(230, 223, 223);
+    border-bottom-left-radius: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-bg {
+    padding: 0px 20px;
+}
+
+.food{
+    margin: 20px 0px;
+    font-size: large;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.shop{
+    background-color: #ffbe33;
+    border-radius: 30px;
+    padding: 8px 10px 6px 9px;
+    width: 35px;
+    height: 35px;
+}
+
+.view-btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.about {
+    /* border: 2px solid red; */
+    margin: 70px 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e232b;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    /* border: 2px solid red; */
+    margin-left: 150px;
+    height: 80vh;
+}
+
+.about-text {
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    width: 500px;
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#booking {
+    color: #000;
+    margin-left: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.form input {
+    width: 35vw;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+}
+
+#book {
+    margin-top: 20px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.rev {
+    padding: 30px 20px;
+    height: 150px;
+}
+
+.client {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 40px;
+    border: 5px solid #fcb723;
+}
+
+.scroll-btn{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.scroll{
+    font-size: 30px;
+    background-color: #fcb723;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100vw;
+    height: 70vh;
+    color: rgb(219, 215, 215);
+    background-color: #1e232b;
+}
+.footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.foot {
+    margin: 30px 20px;
+    width: 300px;
+    text-align: center;
+    font-family: "Arial", "Open Sans", sans-serif;
+    font-size: 17px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    padding: 10px;
+}
+
+.bold {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
+
+#center {
+    margin-top: 16px;
+    width: 420px;
+}
+
+#Feane {
+    font-size: 40px;
+}
+
+.time {
+    padding: 10px;
+}
+#social-icon{
+    padding: 20px;
+}
+.social {
+    background-color: white;
+    margin: 2px;
+    border-radius: 30px;
+    list-style: none;
+    padding: 3px 6px;
+    margin-bottom: 20px;
+}
+
+#fb {
+    padding: 3px 8px;
+}
+
+.social a{
+    color: #1e232b;
+    font-size: 18px;
+    text-decoration: none;
+}
+.social a:hover, .icon:hover{
+    color: #fcb723;
+}
+.copy {
+    padding: 12px;
+}
+.copyright{
+    text-align: center;
+}
